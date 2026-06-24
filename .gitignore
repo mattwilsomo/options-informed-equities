@@ -1,0 +1,26 @@
+
+#data 
+data/
+*.parquet
+*.csv
+*.xlsx
+*.sqlite
+*.db
+
+#credentials 
+.env
+*.json
+credentials.ini
+
+# python environment artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# IDE configs
+.vscode/
+.idea/
